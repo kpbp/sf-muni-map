@@ -1,0 +1,30 @@
+$toggle-size: 50px;
+
+.toggles {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.toggle {
+  width: $toggle-size;
+  height: $toggle-size;
+  list-style: none;
+  text-align: center;
+  line-height: $toggle-size;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 50%;
+  margin: 1px;
+
+  &:hover {
+    font-weight: bold;
+
+  }
+
+  &:not(.active) {
+    filter: grayscale(100%);
+
+  }
+}

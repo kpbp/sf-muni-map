@@ -1,0 +1,21 @@
+$tooltip-size: 80px;
+
+.tooltip {
+  position: absolute;
+  width: $tooltip-size;
+  height: $tooltip-size;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 14px;
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.9;
+
+  &.hidden {
+    display: none;
+  }
+}

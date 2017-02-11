@@ -1,0 +1,23 @@
+$grey-dark: #555;
+$grey-medium: #888;
+$grey-light: #ccc;
+
+.neighborhoods {
+  fill: white;
+  stroke: $grey-dark;
+}
+
+.freeways,
+.streets,
+.arteries {
+  fill: none;
+}
+.streets {
+  stroke: $grey-light;
+}
+.arteries {
+  stroke: $grey-medium;
+}
+.freeways {
+  stroke: $grey-dark;
+}

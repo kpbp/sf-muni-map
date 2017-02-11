@@ -1,0 +1,74 @@
+.neighborhoods {
+  fill: white;
+  stroke: #555; }
+
+.freeways,
+.streets,
+.arteries {
+  fill: none; }
+
+.streets {
+  stroke: #ccc; }
+
+.arteries {
+  stroke: #888; }
+
+.freeways {
+  stroke: #555; }
+
+.toggles {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px; }
+
+.toggle {
+  width: 50px;
+  height: 50px;
+  list-style: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 50%;
+  margin: 1px; }
+  .toggle:hover {
+    font-weight: bold; }
+  .toggle:not(.active) {
+    filter: grayscale(100%); }
+
+.tooltip {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 14px;
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.9; }
+  .tooltip.hidden {
+    display: none; }
+
+body {
+  background-color: #eaeaea;
+  font-family: Verdana, sans-serif; }
+
+#main {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+#panel-container {
+  width: 500px; }
+
+.main-header {
+  margin: 50px 0 0;
+  color: #f65c11;
+  font-size: 40px;
+  text-align: center; }
