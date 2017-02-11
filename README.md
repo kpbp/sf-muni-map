@@ -18,6 +18,7 @@ With more time available, the following improvements could be made:
 * Pull out data requests from the controllers into services
 * Separate views from controllers
 * Add tests!
+* Minify bundle
 * Fix d3 imports to just import the used modules
 * Change tooltips to position themselves based on the bus position, as opposed to the mouse position. For better consistency.
 * Make use of the bus direction property (e.g. use a rectangle + triangle combination to display each bus in the correct postion and heading on the map)
