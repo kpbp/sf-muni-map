@@ -2,9 +2,6 @@
 
 Displays a live map of San Fransisco buses.
 
-### Warning
-Currently requires allowing mixed-content in the browser as NextBus only serve their API over HTTP and github pages forces HTTPS.
-
 [Click to see app running on GH Pages](https://kpbp.github.io/sf-muni-map/)
 
 ### Design Considerations
