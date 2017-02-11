@@ -27,7 +27,7 @@ export default class MapController {
     }
 
     _fetchMapLayer (layer) {
-        return fetchJSON(`/data/${layer}.json`);
+        return fetchJSON(`data/${layer}.json`);
     }
 
     getProjection () {
